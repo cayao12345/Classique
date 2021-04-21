@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Signatria;
+    src: url(./fonts/Signatria.ttf);
+}
+@font-face{
+    font-family: LoungeThings;
+    src: url(./fonts/Lounge\ Things.otf);
+}
+@font-face{
+    font-family: LoveRegular;
+    src: url(./fonts/LoveRegular.ttf);
+}
+@font-face{
+    font-family: TheRickon;
+    src: url(./fonts/The\ Rickon.otf);
+}
+:root{
+    --font1 : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font2 : Verdana, Geneva, Tahoma, sans-serif;
+    --font3 : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    
+}
+.container .header{
+    width: 100%;
+    height: 400px;
+    background: url(./pexels-ksenia-chernaya-3965545.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container .header .titlePage{   
+}
+.container .header .titlePage h1{
+    font-family: TheRickon;
+    font-size: 5rem;
+}
+
+.container .showDiv{
+    margin: 20em 0;
+}
+
+.container .showDiv h1{
+    font-family: LoveRegular;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5em 0;
+    color: blanchedalmond;
+}
+
+.container .showDiv p{
+    color: #000;
+}
+
+@media(max-width:1000px){
+    .container .showDiv p{
+        color: #fff;
+    }
+}
+
+.container .showDiv .pictureDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .showDiv .pictureDiv .picture1{
+    background: url(./pexels-ivan-oboleninov-2853909.jpg);
+}
+
+.container .showDiv .pictureDiv .picture2{
+    background: url(./pexels-ayaka-kato-2860890.jpg);
+}
+
+.container .showDiv .pictureDiv .picture3{
+    background: url(./pexels-neemias-seara-3645369.jpg);
+}
+
+.container .showDiv .pictureDiv .picture{
+    width: 400px;
+    height: 800px;
+    margin: 1em auto;
+    background-size: cover;
+}
+
+.container .showDiv2{
+    width: 80%;
+    margin-top: 15em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 700px;
+    border-bottom-right-radius: 2em;
+    overflow: hidden;
+}
+.container .showDiv2 .sentenceDiv{
+    width: 400px;
+    font-family: LoveRegular;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+.container .showDiv2 .pictureDiv{
+    background: url('pexels-julia-m-cameron-4144982.jpg');
+    width: 800px;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+}
+
+.footer{
+    font-size: 2rem;
+    margin-top: 15em;
+    background: black;
+    color: #fff;
+    padding: 2em 0;
+}
+.footer p{
+    padding: 0.5em;
+}
+.footer .allright{
+    font-family: LoungeThings;
+}
+.footer .owner{
+    font-family: Signatria;
+    font-size: 2rem;
+}
